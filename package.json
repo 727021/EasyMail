@@ -1,0 +1,27 @@
+{
+    "name": "@_727021/easymail",
+    "version": "1.0.0",
+    "description": "A simple wrapper for nodemailer and SendGrid",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/727021/EasyMail.git"
+    },
+    "author": "727021",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/727021/EasyMail/issues"
+    },
+    "homepage": "https://github.com/727021/EasyMail#readme",
+    "dependencies": {
+        "ejs": "^3.1.5",
+        "nodemailer": "^6.4.14",
+        "nodemailer-sendgrid-transport": "^0.2.0"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0"
+    }
+}
